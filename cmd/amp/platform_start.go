@@ -10,7 +10,7 @@ import (
 var PlatformStart = &cobra.Command{
 	Use:   "start",
 	Short: "Start platform",
-	Long:  `Start all AMP platform services.`,
+	Long:  `Start command starts all AMP platform services.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		startAMP(cmd, args)
 	},

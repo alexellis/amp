@@ -10,7 +10,7 @@ import (
 var PlatformStop = &cobra.Command{
 	Use:   "stop",
 	Short: "Stop platform",
-	Long:  `Stop all AMP platform services.`,
+	Long:  `Stop command stops all AMP platform services.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		stopAMP(cmd, args)
 	},
